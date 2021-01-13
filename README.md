@@ -4,7 +4,7 @@
 
 [![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/osisoft.sample-ocs-authentication_authorization-dotnet?repoName=osisoft%2Fsample-ocs-authentication_authorization-dotnet&branchName=master)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2602&repoName=osisoft%2Fsample-ocs-authentication_authorization-dotnet&branchName=master)
 
-This client uses the OAuth2/OIDC Authorization Code Flow + PKCE to obtain an access token. See the authentication [README](https://github.com/osisoft/OSI-Samples-OCS/blob/master/README.md) for more information about this flow.
+This client uses the OAuth2/OIDC Authorization Code Flow + PKCE to obtain an access token. See main OCS Authentication samples page [README](https://github.com/osisoft/OSI-Samples-OCS/blob/master/README.md) for more information about this flow.
 
 ## Requirements
 
