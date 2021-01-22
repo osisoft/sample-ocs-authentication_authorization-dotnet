@@ -1,6 +1,6 @@
 # Authorization Code Flow + PKCE DotNet Sample and Test
 
-**Version:** 1.2.9
+**Version:** 1.2.10
 
 [![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/osisoft.sample-ocs-authentication_authorization-dotnet?repoName=osisoft%2Fsample-ocs-authentication_authorization-dotnet&branchName=master)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2602&repoName=osisoft%2Fsample-ocs-authentication_authorization-dotnet&branchName=master)
 
@@ -8,7 +8,7 @@ This client uses the OAuth2/OIDC Authorization Code Flow + PKCE to obtain an acc
 
 ## Requirements
 
-- .NET Core 3.1
+- .NET 5.0 (this requires Visual Studio 16.8 or later)
 - Web Browser with Javascript enabled
 
   - You will need Google Chrome if you want to run the automated test

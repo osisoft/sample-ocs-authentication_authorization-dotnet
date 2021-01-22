@@ -1,5 +1,10 @@
 # Version History
 
+## 1.2.10 / 2021-01-25
+
+- Updated dependencies
+- Migrated from .NET Core 3.1 to .NET 5.0
+
 ## 1.2.9 / 2020-11-02
 
 - Updated dependencies
