@@ -4,6 +4,8 @@
 
 - Updated dependencies
 - Migrated from .NET Core 3.1 to .NET 5.0
+- Migrated from FxCopAnalyzer to NetAnalyzer
+- Migrated from OSIsoft.Ruleset and Extenstion.Ruleset to .editorconfig
 
 ## 1.2.9 / 2020-11-02
 
