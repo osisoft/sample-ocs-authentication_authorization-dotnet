@@ -55,6 +55,8 @@ jobs:
 
       - task: DotNetCoreCLI@2
         displayName: 'Run tests'
+        env:
+          CHROMEWEBDRIVER: $(Build.SourcesDirectory)\node_modules\chromedriver\lib\chromedriver
         inputs:
           command: test
           publishTestResults: true
