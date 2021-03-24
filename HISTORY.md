@@ -1,5 +1,10 @@
 # Version History
 
+## 1.2.11 / 2021-03-24
+
+- Updated pipeline to use internal agent pool
+- Updated pipeline to reference main branch
+
 ## 1.2.10 / 2021-01-25
 
 - Updated dependencies
