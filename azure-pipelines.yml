@@ -45,6 +45,14 @@ jobs:
           fileLibrary: $(CredFileLibrary)
           filePath: /AuthorizationCodeFlow
 
+      - script: |
+          echo Install chromedriver
+          npm install chromedriver
+          set PATH=%PATH%;$(Build.SourcesDirectory)\node_modules\chromedriver\lib\chromedriver
+        displayName: 'Install chromedriver'
+
+      - script: echo %PATH%
+
       - task: DotNetCoreCLI@2
         displayName: 'Run tests'
         inputs:
