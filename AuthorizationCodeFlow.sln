@@ -10,7 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1BE3E426-CEF6-4176-8D5B-A3350E1D1371}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
-		azure-pipeline.yml = azure-pipeline.yml
+		azure-pipelines.yml = azure-pipelines.yml
 		..\..\..\Directory.Build.props = ..\..\..\Directory.Build.props
 		HISTORY.md = HISTORY.md
 		polaris.yml = polaris.yml
