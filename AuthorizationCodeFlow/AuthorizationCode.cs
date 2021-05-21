@@ -28,7 +28,7 @@ namespace AuthorizationCodeFlow
             get { return OcsAddress + IdentityResourceSuffix; }
         }
 
-        public static (string, DateTime) GetAuthorizationCodeFlowAccessToken(string clientId, string tenantId)
+        public static (string, DateTimeOffset) GetAuthorizationCodeFlowAccessToken(string clientId, string tenantId)
         {
             Console.WriteLine("+-----------------------+");
             Console.WriteLine("|  Sign in with OIDC    |");
@@ -107,7 +107,6 @@ namespace AuthorizationCodeFlow
                     RedirectUri = redirectUri,
                     Scope = scope,
                     FilterClaims = false,
-                    Flow = OidcClientOptions.AuthenticationFlow.AuthorizationCode,
                     Browser = browser,
                     Policy = new Policy
                     {
@@ -121,7 +120,7 @@ namespace AuthorizationCodeFlow
                 _oidcClient = new OidcClient(options);
                 var loginRequest = new LoginRequest
                 {
-                    FrontChannelExtraParameters = new Dictionary<string, string> { { "acr_values", $"tenant:{tenantId}" } },
+                    FrontChannelExtraParameters = new Parameters(new Dictionary<string, string> { { "acr_values", $"tenant:{tenantId}" } }),
                 };
 
                 // Login with the client. This call will open a new tab in your default browser
